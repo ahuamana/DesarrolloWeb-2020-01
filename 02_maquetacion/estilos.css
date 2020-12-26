@@ -1,0 +1,42 @@
+header{
+
+    font-size: 48px;
+
+}
+
+
+section{
+
+    text-align: center;
+    height: 397px;
+    border: 3px solid #f7931e;
+    font-size: 48px;
+    /* color: #f7931e; */
+}
+
+article{
+
+    width: 650px;
+    height: 140px;
+    border: 3px solid #009245;
+    text-align: center;
+    display: inline-block;
+}
+
+aside{
+
+    width: 650px;
+    height: 140px;
+    border: 3px solid #662d91;
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+footer{
+    border: 3px solid #603813;
+    height: 84px;
+    text-align: center;
+    font-size: 48px;
+}
