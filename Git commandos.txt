@@ -1,0 +1,6 @@
+
+-Actualizar el proyecto
+
+git add - A
+git commit -m "Nombre del commit"
+git push origin HEAD:master
