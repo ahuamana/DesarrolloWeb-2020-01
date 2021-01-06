@@ -1,0 +1,183 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    font-family: 'Lato', sans-serif;
+}
+
+/* CONTENEDOR */
+
+.contenedor{
+
+    /* width: 1300px; */
+    width: 80%;
+    /* border: 2px dotted peru; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* NAV */
+
+
+nav {
+
+    background-color: #273b47;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav img{
+
+    display: block;
+    width: 100px;
+    
+}
+
+nav div {
+
+    display: flex;
+    align-items: center;
+    
+}
+
+nav div .navSession{
+
+    color: white;
+    text-decoration: none;
+    background-color: #ff4842;
+    padding: 8px 15px;
+    display: inline-block;
+    border-radius: 5px;
+}
+nav div ul{
+
+    list-style: none;
+    display: flex;
+    
+    
+}
+
+nav div ul .border-left {
+
+    border-right: 2px solid white;
+}
+
+nav div ul li a {
+
+    color: white;
+    text-decoration: none;
+    padding: 0px 15px;
+}
+
+/* HEADER */
+
+header{
+
+    background-color: #efefef;
+    padding-top: 10px;
+    /* border: 2px dotted rgb(0, 255, 64); */
+}
+
+header div form{
+
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+header div form input {
+
+    padding: 5px;
+    margin-right: 3px;
+}
+
+header div form button {
+
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+header div div img {
+
+    display: block;
+    width: 100%;
+}
+
+header .contenedor div {
+
+    position: relative;
+}
+
+header .contenedor div article{
+
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 15px;
+}
+
+
+header div div article .flotante {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div div article hr{
+  
+    margin: 5px 0px;
+    
+}
+
+/* SECTION */
+
+section {
+
+    padding: 30px 0px;
+}
+
+section .contenedor {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section .caja article {
+
+    width: calc(100% /3 - 20px);
+    margin-bottom: 10px;
+}
+
+section .contenedor article img {
+    width: 100%;
+    display: block;
+    
+}
+
+
+
+section .caja article div h3 {
+
+    padding: 10px 0px;
+}
+
+section .caja article div div {
+
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
