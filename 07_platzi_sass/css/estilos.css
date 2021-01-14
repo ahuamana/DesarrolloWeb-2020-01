@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif; }
+
+a,
+a:link,
+a:visited {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+.nav {
+  background-color: #273b47;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  /* posicionar siempre el menu */
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1;
+  top: 0; }
+  .nav--logo {
+    display: block;
+    width: 10rem; }
+  .nav__menuBox {
+    display: flex;
+    align-items: center; }
+    .nav__menuBox__menu {
+      list-style: none;
+      display: flex; }
+      .nav__menuBox__menu__item--link {
+        color: white;
+        font-size: 1.6rem;
+        padding: 8px 15px; }
+    .nav__menuBox--session {
+      color: white;
+      font-size: 1.6rem;
+      text-decoration: none;
+      background-color: #ff4842;
+      padding: 8px 15px;
+      display: inline-block;
+      border-radius: 5px; }
+
+/*# sourceMappingURL=estilos.css.map */

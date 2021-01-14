@@ -1,0 +1,62 @@
+.nav{
+    background-color: #273b47;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+
+    /* posicionar siempre el menu */
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1;
+    top: 0;
+
+    &--logo{
+
+       display: block;
+       width: 10rem;
+    }
+
+    &__menuBox{
+
+        display: flex;
+        align-items: center;
+        
+
+        &__menu{
+            list-style: none;
+            display: flex;
+            
+            
+
+            &__item{
+                &--link{
+                    color: white;
+                    font-size: 1.6rem;
+                    padding: 8px 15px;
+                }
+                
+            }
+        }
+        
+        &--session{
+            color: white;
+            font-size: 1.6rem;
+            text-decoration: none;
+            background-color: #ff4842;
+            padding: 8px 15px;
+            display: inline-block;
+            border-radius: 5px;
+            
+            
+            
+        }
+        
+    }
+
+
+
+    
+}

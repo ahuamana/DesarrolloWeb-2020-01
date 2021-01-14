@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+$lato: 'Lato', sans-serif;
+$morado: purple;
+
+
+
+html{
+
+    // Por defecto el font size es 16 = 100%
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: $lato;
+}
+
+a,
+a:link, 
+a:visited {
+
+    text-decoration: none;
+}
+
+ul{
+
+    list-style: none;
+}

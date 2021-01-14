@@ -31,12 +31,21 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    
+
+    /* posicionar siempre el menu */
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1;
+    top: 0;
 }
 
 nav img{
 
     display: block;
     width: 100px;
+
     
 }
 
@@ -82,7 +91,11 @@ header{
 
     background-color: #efefef;
     padding-top: 10px;
+    
     /* border: 2px dotted rgb(0, 255, 64); */
+
+    /* Arreglo para superponer el menu */
+    margin-top: 55px;
 }
 
 header div form{
@@ -180,4 +193,37 @@ section .caja article div div {
     padding: 10px 0px;
     display: flex;
     justify-content: space-between;
+}
+
+/* FOOTER */
+
+footer{
+
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+footer .pagina {
+
+    color: #9393af;
+}
+
+footer span:not(:last-child) {
+
+    margin: 0px 2px;
+}
+
+footer span a {
+
+    color: #666666;
+    text-decoration: none;
+    background-color: #eaeaea;
+    padding: 5px;
+    border: 1px solid #cccccc;
+}
+
+footer span a.active{
+
+    background-color: transparent;
+    border: 1px solid transparent;
 }
