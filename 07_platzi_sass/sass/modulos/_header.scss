@@ -1,0 +1,65 @@
+.header{
+    margin-top: 5.9rem;
+
+    &__contenedor{
+
+        //border: dotted blueviolet 2px;
+
+        &__form{
+
+            display: flex;
+            justify-content: flex-end;
+            padding: 1rem 0;
+
+            &--input{
+                font-size: 1.6rem;
+                font-family: $lato;
+                
+            }
+            &--button{
+                padding: .5rem;
+                background-color: black;
+                border: none;
+                color: white;
+                margin-left: .5rem;
+            
+            }
+        }
+
+        &__box{
+            position: relative;
+
+            &--img{
+                display: block;
+                width: 100%;
+                height: auto;
+                
+            }
+            &__article{
+
+                position: absolute;
+                bottom: 2rem;
+                left: 2rem;
+                background-color: rgba($color:white, $alpha: 0.7);
+                padding: 2rem;
+                font-size: 1.6rem;
+                @media only screen and(max-width:$bp-large){
+                    position: unset;
+                }
+
+                &--separador{
+
+                    margin: 1rem 0;
+                }
+                &__data{
+
+                    display: flex;
+                    justify-content: space-between;
+                }
+                
+            }
+        }
+
+        
+    }    
+}
